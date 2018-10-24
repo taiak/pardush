@@ -62,3 +62,19 @@ deb http://ubuntu.lagis.at/ubuntu/ bionic-security universe
 deb http://ubuntu.lagis.at/ubuntu/ bionic-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse
 deb http://security.ubuntu.com/ubuntu xenial-security main
+
+
+## pardus için özellikle bunlar gerekiyo
+
+# debian 9 scretch
+deb http://httpredir.debian.org/debian/ stretch main contrib non-free"
+
+# pardus source lists
+deb http://depo.pardus.org.tr/pardus onyedi main non-free contrib
+deb-src http://depo.pardus.org.tr/pardus onyedi main non-free contrib
+deb http://depo.pardus.org.tr/guvenlik onyedi/updates main non-free contrib
+deb-src http://depo.pardus.org.tr/guvenlik onyedi/updates main non-free contrib
+
+
+
+
